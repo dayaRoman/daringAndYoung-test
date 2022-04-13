@@ -3,7 +3,7 @@
 # Установка
 
 <ol>
-    <li>git clone https://github.com/dayaRoman/500na700-test.git</li>
+    <li>git clone https://github.com/dayaRoman/daringAndYoung-test.git</li>
     <li>npm i</li>
 </ol>
 
