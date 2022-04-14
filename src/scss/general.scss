@@ -1,0 +1,16 @@
+@import "mixins";
+@import "fonts";
+@import "reset";
+@import "variables";
+
+@import "titles";
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+

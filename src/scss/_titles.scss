@@ -1,0 +1,33 @@
+.title {
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 110%;
+
+    color: #ffffff;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 115%;
+
+    color: $blackText;
+    span {
+        &:nth-child(1) {
+            color: $greenText;
+        }
+        &:nth-child(2) {
+            color: $blueText;
+        }
+        &:nth-child(3) {
+            color: $purpleText;
+        }
+    }
+}
+
+.descr {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+    color: #615D5D;
+}
