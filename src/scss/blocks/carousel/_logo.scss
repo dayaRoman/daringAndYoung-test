@@ -1,0 +1,29 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 195px;
+
+    p {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 120%;
+        color: #fff;
+    }
+
+    span {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    &-green {
+        color: $greenText;
+    }
+    &-blue {
+        color: $blueText;
+    }
+    &-purple {
+        color: $purpleText;
+    }
+}

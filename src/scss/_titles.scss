@@ -12,14 +12,18 @@
     line-height: 115%;
 
     color: $blackText;
-    span {
-        &:nth-child(1) {
+    &-green {
+        span {
             color: $greenText;
         }
-        &:nth-child(2) {
+    }
+    &-blue {
+        span {
             color: $blueText;
         }
-        &:nth-child(3) {
+    }
+    &-purple {
+        span {
             color: $purpleText;
         }
     }

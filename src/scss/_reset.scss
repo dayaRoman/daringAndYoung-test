@@ -16,6 +16,15 @@ ol {
 }
 
 body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;

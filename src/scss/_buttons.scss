@@ -1,0 +1,19 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.button__more {
+    border: 2px dashed #fff;
+    width: 210px;
+    height: 60px;
+    &:hover {
+        border: none;
+        background: #fff;
+    }
+}

@@ -1,0 +1,11 @@
+@import "./logo";
+@import "./slide";
+@import "./arrows";
+
+.carousel {
+    position: relative;
+    &__container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}

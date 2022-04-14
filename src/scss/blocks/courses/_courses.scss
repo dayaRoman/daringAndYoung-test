@@ -1,0 +1,21 @@
+.courses {
+    padding: 190px 0 200px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    &__item {
+        &:not(:last-child) {
+            padding-right: 50px;
+            border-right: 1px solid #f2f2f2;
+        }
+    }
+    &__svg {
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        margin-bottom: 20px;
+    }
+}
