@@ -5,7 +5,7 @@ export default function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         prevArrow: $(".carousel__prev"),
         nextArrow: $(".carousel__next"),
