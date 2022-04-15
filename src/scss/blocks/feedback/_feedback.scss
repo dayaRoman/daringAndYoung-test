@@ -1,0 +1,32 @@
+@import "./feedback-form";
+
+.feedback {
+    padding: 150px 0;
+    background-color: #f3f3f3;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 66px;
+        line-height: 110%;
+
+        color: $blackText;
+        margin-bottom: 30px;
+    }
+
+    &__sign {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 130%;
+
+        color: #a6a6a6;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+}

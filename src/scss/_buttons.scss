@@ -6,14 +6,25 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
-}
 
-.button__more {
-    border: 2px dashed #fff;
-    width: 210px;
-    height: 60px;
-    &:hover {
-        border: none;
-        background: #fff;
+    &__more {
+        border: 2px dashed #fff;
+        width: 210px;
+        height: 60px;
+        transition: 0.5s all;
+        &:hover {
+            border: none;
+            background: #fff;
+        }
+    }
+
+    &__submit {
+        width: 220px;
+        height: 65px;
+        background-color: #138F5B;
+        transition: 0.5s all;   
+        &:hover {
+            background-color: #04643C;
+        }
     }
 }

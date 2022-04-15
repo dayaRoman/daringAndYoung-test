@@ -1,0 +1,22 @@
+.feedback__form {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 42px;
+
+    input {
+        padding: 20px;
+        width: 275px;
+        height: 65px;
+        border: none;
+        cursor: pointer;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: $blackText;
+        &::placeholder {
+            color: #C5C5C5;
+        }
+    }
+}
