@@ -145,6 +145,12 @@
     @media (max-width: $breakpointMedium) {
         padding: 35px 0 105px;
     }
+    @media (max-width: 424.98px) {
+        padding-bottom: 125px;
+    }
+    @media (max-width: 322.98px) {
+        padding-bottom: 145px;
+    }
 }
 
 .slick-dots {
