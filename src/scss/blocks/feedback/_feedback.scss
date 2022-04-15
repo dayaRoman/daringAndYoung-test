@@ -8,6 +8,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media (max-width: $breakpointMedium) {
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+        }
     }
 
     &__title {
@@ -16,6 +21,16 @@
 
         color: $blackText;
         margin-bottom: 30px;
+        @media (min-width: $breakpointXLarge) and (max-width: 1919.98px) {
+            font-size: 63px;
+        }
+        @media (max-width: $breakpointMedium) {
+            font-size: 46px;
+        }
+        @media (max-width: $breakpointXSmall) {
+            font-size: 36px;
+        }
+        
     }
 
     &__sign {
@@ -28,5 +43,9 @@
         span {
             text-decoration: underline;
         }
+    }
+
+    @media (max-width: $breakpointMedium) {
+        padding: 75px 0 41px;
     }
 }

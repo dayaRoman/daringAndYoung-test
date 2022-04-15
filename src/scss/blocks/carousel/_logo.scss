@@ -26,4 +26,9 @@
     &-purple {
         color: $purpleText;
     }
+
+    @media (max-width: $breakpointMedium) {
+        justify-content: center;
+        margin-bottom: 160px;
+    }
 }

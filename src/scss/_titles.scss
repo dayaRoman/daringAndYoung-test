@@ -4,6 +4,18 @@
     line-height: 110%;
 
     color: #ffffff;
+
+    @media (min-width: $breakpointXLarge) and (max-width: 1919.98px) {
+        font-size: 92px;
+    }
+
+    @media (max-width: $breakpointXLarge) {
+        font-size: 86px;
+    }
+
+    @media (max-width: $breakpointMedium) {
+        font-size: 78px;
+    }
 }
 
 .subtitle {
@@ -27,11 +39,18 @@
             color: $purpleText;
         }
     }
+
+    @media (max-width: $breakpointMedium) {
+        font-size: 30px;
+    }
 }
 
 .descr {
     font-weight: 300;
     font-size: 20px;
     line-height: 130%;
-    color: #615D5D;
+    color: #615d5d;
+    @media (max-width: $breakpointXSmall) {
+        font-size: 18px;
+    }
 }

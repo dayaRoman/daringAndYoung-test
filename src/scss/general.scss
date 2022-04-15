@@ -12,5 +12,14 @@
 @import "./blocks/main";
 @import "./blocks/footer";
 
+body {
+    font-family: "Ubuntu", sans-serif;
+}
 
-
+.container {
+    max-width: 83.33vw;
+    margin: 0 auto;
+    // @media (min-width: 1920px) and (max-width: $breakpointXLarge) {
+        
+    // }
+}

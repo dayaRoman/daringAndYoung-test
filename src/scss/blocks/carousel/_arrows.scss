@@ -8,6 +8,10 @@
         &:hover {
             opacity: 1;
         }
+
+        @media (max-width: $breakpointMedium) {
+            display: none;
+        }
     }
     &__prev {
         left: 65px;
